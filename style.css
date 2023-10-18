@@ -1,96 +1,99 @@
 /* BASE STYLES */
 * {
-    font-family: sans-serif;
-    font-size: 20px
+  font-family: sans-serif;
+  font-size: 20px;
+  overflow-y: hidden;
 }
 .navbar {
-    width: 100vw;
-    background-color: #59D9A1;
-    padding-left: 30px;
-    padding-right: 10px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+  width: 100%; /* why is this even more than 100% ?? */
+  background-color: #59d9a1;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-}
-  
 .logo {
-    justify-content: start;
+  justify-content: start;
 }
-  
+
 .nav-links {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    min-width: 400px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 400px;
 }
-  
+
 .nav-item a {
-    display: inline-block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: white;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
 }
-  
+
 .nav-item:hover {
-    background-color: white;
+  background-color: white;
 }
 
 .sidebar p:hover {
-    background-color: white;
-    color: #242457;
+  background-color: white;
+  color: #242457;
 }
-  
+
 .nav-item:hover a {
-    color: #59D9A1;
+  color: #59d9a1;
 }
-  
+
 .logo img {
-    width: 15%;
-    vertical-align: middle;
+  width: 15%;
+  vertical-align: middle;
 }
 
 .sidebar {
-    background-color: #242457;
-    color: white;
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  background-color: #242457;
+  color: white;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 footer img {
-    width: 3%;
+  width: 3%;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .flex-main {
-    display: flex;
-    background-color: #F5F5F5;
-    width: 100%;
-    padding-right: 2.5rem;
-    flex-direction: row;
-
+  display: flex;
+  background-color: #f5f5f5;
+  width: 100%;
+  padding-right: 2.5rem;
+  flex-direction: row;
 }
 
-.image-container{
-    height: 30vh;
-    width: 20vw;
-    background-color: #505FF9;
-    margin: 2rem;
-    color: #fff;
-    border: solid black 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image-container {
+  height: 30vh;
+  width: 20vw;
+  background-color: #505ff9;
+  margin: 2rem;
+  color: #fff;
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
-    display:flex;
-    width: 100%;
-    padding: 1rem;
-    background-color: #59D9A1;
-    justify-content: space-around;
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  background-color: #59d9a1;
+  justify-content: space-around;
 }
 
 /* CODE YOUR FLEXBOXES HERE */
