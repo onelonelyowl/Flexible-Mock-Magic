@@ -5,7 +5,7 @@
   overflow-y: hidden;
 }
 .navbar {
-  width: 100%; /* why is this even more than 100% ?? */
+  width: 100%; /* who dis vw dude*/
   background-color: #59d9a1;
   padding-left: 30px;
   padding-right: 10px;
